@@ -1,0 +1,23 @@
+{
+  "name": "recalculator-cli",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w",
+    "test": "jest"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "reason-nodejs": "^13.0.0-beta.1",
+    "rescript": "*"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "gentype": "^4.2.0"
+  }
+}
